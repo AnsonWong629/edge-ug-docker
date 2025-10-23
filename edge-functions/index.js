@@ -161,7 +161,7 @@ export async function onRequest(context) {
     const request = context.request
     const env = context.env
     const config = {
-        alias: env.UG_LINK,
+        alias: env.UG_ALIAS,
         username: env.UG_USERNAME,
         password: env.UG_PASSWORD,
         port: env.UG_PORT

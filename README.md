@@ -1,8 +1,17 @@
 # 使用方法
 
-复制此仓库(设置私有仓库)，配置/edge-functions/index.js中的UGlinkID和用户名密码还有容器端口（推荐使用没有权限的用户）
+fork此仓库(设置私有仓库)，在edge pages新建项目选择复制的仓库
 
-在edge pages新建项目选择复制的仓库，同时绑定自己的备案域名
+配置以下环境变量，并绑定自己的备案域名
+
+UG_ALIAS // 绿联UGLinkID
+
+UG_USERNAME // 绿联账号
+
+UG_PASSWORD // 绿联密码
+
+UG_PORT // 容器端口
+
 
 接着在edge pages中创建一个kv存储，命名空间名称任意
 
