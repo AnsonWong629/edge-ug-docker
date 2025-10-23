@@ -12,7 +12,7 @@ const Database = {
         if (value == null) {
             await nas.delete(key)
         } else {
-            await nas.put(this.key, JSON.stringify(value))
+            await nas.put(key, JSON.stringify(value))
         }
     }
 }

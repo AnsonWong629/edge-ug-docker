@@ -12,7 +12,6 @@ UG_PASSWORD // 绿联密码
 
 UG_PORT // 容器端口
 
-
 接着在edge pages中创建一个kv存储，命名空间名称任意
 
 然后关联项目，选择刚刚新建的pages项目，变量名称填nas
