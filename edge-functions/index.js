@@ -166,6 +166,9 @@ export async function onRequest(context) {
         password: env.UG_PASSWORD,
         port: env.UG_PORT
     }
+    if (env){
+        return new Response(JSON.stringify(env))
+    }
     const ctx = {}
     const key = config.alias + ':' + config.port
     try {
