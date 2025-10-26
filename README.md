@@ -4,13 +4,15 @@ fork此仓库，在edge pages新建项目选择fork的仓库
 
 配置以下环境变量，并绑定自己的备案域名
 
-UG_ALIAS // 绿联UGLinkID
+UG_ALIAS // 绿联UGLinkID 例：dx4600-01
 
-UG_USERNAME // 绿联账号
+UG_USERNAME // 绿联账号 例：myflavor
 
-UG_PASSWORD // 绿联密码
+UG_PASSWORD // 绿联密码 例：TkdxB2VyMEt3UVoi
 
-UG_PORT // 容器端口
+UG_PORT // 容器端口 例：5244
+
+不支持开启双重验证的账号，建议使用没有权限的普通账号
 
 接着在edge pages中创建一个kv存储，命名空间名称任意
 
